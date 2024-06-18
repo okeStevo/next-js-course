@@ -1,7 +1,8 @@
-"use client"
+"use server";
 import Image from "next/image";
+import Button from "./Button";
 
-export default function Home() {
+export default async function Home() {
   return (
     <>
       <div className="hero min-h-screen bg-base-200">
@@ -11,8 +12,8 @@ export default function Home() {
             <p className="py-6">
               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.piojinnoiuoeiboboub
-            </p>u
+              et a id nisi.
+            </p>
             <details className="dropdown">
               <summary className="m-1 btn">open or close</summary>
               <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
@@ -24,9 +25,9 @@ export default function Home() {
                       document.getElementById("my_modal_1").showModal()
                     }
                   >
-                    open modal
+                    {props.text}
                   </button>
-                  <dialog id="my_modal_1" className="modal">
+                  <dialog id="my_modal_1" className="modal ">
                     <div className="modal-box">
                       <h3 className="font-bold text-lg">Hello!</h3>
                       <p className="py-4">
