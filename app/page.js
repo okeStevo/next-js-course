@@ -11,8 +11,8 @@ export default function Home() {
             <p className="py-6">
               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
-            </p>
+              et a id nisi.piojinnoiuoeiboboub
+            </p>u
             <details className="dropdown">
               <summary className="m-1 btn">open or close</summary>
               <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
