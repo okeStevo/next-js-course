@@ -1,7 +1,4 @@
-"use server";
-import Image from "next/image";
 import Button from "./Button";
-
 export default async function Home() {
   return (
     <>
@@ -19,15 +16,8 @@ export default async function Home() {
               <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
                 <li>
                   {/* Open the modal using document.getElementById('ID').showModal() method */}
-                  <button
-                    className="btn"
-                    onClick={() =>
-                      document.getElementById("my_modal_1").showModal()
-                    }
-                  >
-                    {props.text}
-                  </button>
-                  <dialog id="my_modal_1" className="modal ">
+                  <Button />
+                  <dialog id="my_modal_1" className="modal flex justify-center">
                     <div className="modal-box">
                       <h3 className="font-bold text-lg">Hello!</h3>
                       <p className="py-4">

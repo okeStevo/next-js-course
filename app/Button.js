@@ -1,12 +1,12 @@
-"use client";
-export default function Button(props) {
+"use client"
+export default function Button() {
   return (
     <>
       <button
         className="btn"
         onClick={() => document.getElementById("my_modal_1").showModal()}
       >
-       {props.text}
+        Open or close
       </button>
     </>
   );
