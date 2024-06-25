@@ -1,5 +1,6 @@
 import Button from "./Button";
-import Modal from "./modal";
+import Dialog from "./dialog";
+import Link from "next/link";
 export default async function Home() {
   return (
     <>
@@ -18,7 +19,7 @@ export default async function Home() {
                 <li>
                   {/* Open the modal using document.getElementById('ID').showModal() method */}
                   <Button />
-                  <Modal />
+                  <Dialog />
                   <a>Item 1</a>
                 </li>
                 <li>
