@@ -1,4 +1,9 @@
-## Getting Started
+This course will teachyou all you need to know about <strong>nextJs</strong>
+
+## Getting Started <br />
+
+--basic knowledge of
+React js is <b>required</b>
 
 Install all the dependencies needed for this project with - npm install in your terminal
 
