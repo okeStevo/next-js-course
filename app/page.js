@@ -6,10 +6,10 @@ export default function Home() {
           <div className="max-w-md">
             <h1 className="text-5xl font-bold">Hello there</h1>
             <p className="py-6">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.piojinnoiuoeiboboub
-            </p>u
+              hey ya'll my name is Oke Stephen i'm a full stack web develper and
+              app developer from nigeria, i'm just starting out with online
+              courses so do well to subscribe and like
+            </p>
             <details className="dropdown">
               <summary className="m-1 btn">open or close</summary>
               <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
